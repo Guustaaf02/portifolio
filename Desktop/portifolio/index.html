@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    
+</head>
+<body>
+    <header class="cabecalho">
+        <div class ="menu-icon">
+            <span class="material-icons" onclick="clickMenu()">menu</span>
+        </div>
+        <nav id="menu" class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre Mim</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Este é o meu portifolio estou me inserindo na area de <strong class="titulo-destaque">desenvolvimento!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou o Gustavo Priori,  um estudante de desenvolvimento.  Ainda estou aprendendo que rumo quero levar, mas enquanto isso vou estudando e aprendendo novas tecnologias e linguagens. </p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/gustavomorais4/" target="_blank">
+                    <img src="./assets/instagram.png"
+                    >Instagram</a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/Guustaaf02" target="_blank">
+                    <img src="./assets/github.png">GitHub</a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/gustavo-priori-de-morais-4bba04210/" target="_blank">
+                    <img src="./assets/linkedin.png">Linkedin</a>
+            </div>
+        </section>
+        <div>
+            <img class="apresentacao__imagem"src="./assets/perfil.png" alt="Foto de perfil">
+        </div>
+    </main>
+    <footer class="rodape">
+    <p>Desenvolvido por Gustavo Priori</p>     
+    </footer>
+    <script>
+        function clickMenu(){
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+     </script>
+</body>
+</html>
