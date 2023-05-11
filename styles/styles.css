@@ -170,6 +170,14 @@ body {
         display: inline-block;
         
     }
+        
+    .cabecalho__menu__link {
+
+        font-size: 1.2rem;
+        margin-right: 5%;
+    }
+        
+    }
     
     .apresentacao {
 
@@ -185,6 +193,7 @@ body {
 
         padding: 10%;
     }
+
 
     .cabecalho__menu__link {
         
@@ -203,15 +212,18 @@ body {
         font-size: 1.6rem;
     }
 
-    .cabecalho__menu {
+    .apresentacao__conteudo__texto{
 
-        display: none;
+        font-size: 1rem;
     }
+
+    .apresentacao__conteudo__titulo{
+
+        font-size: 1.6rem;
+    }
+   
     .apresentacao__imagem {
         width: 70%;
         border-radius: 50%;
         border: 2px solid var(--cor-terciaria);
     }
-
-
-}
