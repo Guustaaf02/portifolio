@@ -170,6 +170,14 @@ body {
         display: inline-block;
         
     }
+        
+    .cabecalho__menu__link {
+
+        font-size: 1.2rem;
+        margin-right: 5%;
+    }
+        
+    }
     
     .apresentacao {
 
@@ -195,16 +203,9 @@ body {
 
         font-size: 1.6rem;
     }
-
-    .cabecalho__menu {
-
-        display: none;
-    }
+   
     .apresentacao__imagem {
         width: 70%;
         border-radius: 50%;
         border: 2px solid var(--cor-terciaria);
     }
-
-
-}
