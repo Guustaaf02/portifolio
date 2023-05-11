@@ -34,6 +34,15 @@ body {
     padding: 2% 0% 0% 15%;
 }
 
+.menu-icon {
+    display: none;
+    float: right;
+    cursor: pointer;
+}
+
+.menu-icon:hover{
+    background-color:var(--cor-hover);
+}
 .cabecalho__menu {
 
     display: flex;
@@ -157,7 +166,11 @@ body {
 
 @media (max-width: 1300px) {
 
-
+    .menu-icon {
+        display: inline-block;
+        
+    }
+    
     .apresentacao {
 
         flex-direction: column-reverse;
@@ -175,7 +188,7 @@ body {
 
     .cabecalho__menu {
 
-        justify-content: center;
+        display: none;
     }
     .apresentacao__imagem {
         width: 70%;
